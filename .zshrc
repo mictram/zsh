@@ -40,9 +40,6 @@ alias push-all='git remote | xargs -L1 git push --all'
 # Python executables path
 export PATH="$PATH:$HOME/.local/bin"
 
-#source /usr/bin/virtualenvwrapper.sh
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-
 export PASSWORD_STORE_DIR=~/Nextcloud/.password-store
 
 #alias hiviz-pass="export PASSWORD_STORE_DIR=~/Nextcloud/HiViz/.password-store.hiviz"
